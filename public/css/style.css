@@ -1508,3 +1508,21 @@ img[src^='http://s.w.org/images/core/emoji'], img[src^='https://s.w.org/images/c
 .mCSB_inside > .mCSB_container{
     margin-right: 0px;
 }
+
+/* light sidebar */
+#nav {
+    background: #ededed;
+}
+#nav-tags li {
+    color: #242424;
+}
+#nav-filter li.active,
+#nav-tags li.active {
+    background: #ffffff;
+    color: #242424;
+}
+#nav-settings,
+#nav-refresh,
+#nav-logout {
+    filter: invert(100%);
+}
